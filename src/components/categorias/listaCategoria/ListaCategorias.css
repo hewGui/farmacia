@@ -1,0 +1,35 @@
+/* src/components/categorias/ListaCategorias.css */
+
+.container {
+    padding: 20px;
+}
+
+.categoria-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.categoria-actions {
+    margin-top: 10px;
+}
+
+.categoria-actions a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.categoria-actions button {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.categoria-actions button:hover {
+    background-color: #c82333;
+}

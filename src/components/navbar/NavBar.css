@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+.navbar-container {
+    width: 100%;
+    background-color: #059ca1;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-link {
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+    color: #e6f4f1;
+    text-decoration: underline;
+}
