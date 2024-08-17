@@ -10,6 +10,7 @@ function Navbar() {
                     <div className="navbar-brand">DrogaMais</div>
                     <div className="navbar-links">
                         <Link to="/home" className="navbar-link">Home</Link>
+                        <Link to='/categorias' className='hover:underline'>Categorias</Link>
                     </div>
                 </div>
             </div>
